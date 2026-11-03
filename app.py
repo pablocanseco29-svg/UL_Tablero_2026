@@ -28,81 +28,81 @@ opcion = st.sidebar.radio(
 )
 
 # -----------------------------------------------------------------------------
-# Contenido Principal
+# Contenido Principal en formato de Cuento
 # -----------------------------------------------------------------------------
 if opcion == "1. Proximidad (Las estrellas)":
-    st.title("⭐ 1. Ley de la Proximidad")
-    st.write("### Las estrellas en el cielo de B612")
-    st.write("Cuando miras el cielo nocturno, las estrellitas que están cerquita unas de otras las agrupamos con la mirada y decimos: *'¡Mira, ahí hay una constelación!'*.")
-    st.info("💡 **En diseño:** Los elementos cercanos se sienten como una sola familia (como los botones de un menú).")
-    st.image("https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?w=600", caption="Las estrellas se agrupan por cercanía", width=500)
+    st.title("⭐ 1. Ley de la Proximidad: El secreto de las estrellas")
+    st.write("### 📖 Érase una vez...")
+    st.write("El Principito miraba todas las noches las millones de estrellas de su pequeño planeta. Aunque son luceros separados, cuando el aviador miraba el cielo, su mente unía instintivamente aquellas que estaban más juntitas para formar constelaciones y dibujos imaginarios.")
+    st.info("💡 **El secreto visual:** Los elementos que están cerca unos de otros se perciben como un grupo o una familia.")
+    st.image("https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?w=600", caption="Las estrellas cercanas forman constelaciones ante nuestros ojos", width=500)
 
 elif opcion == "2. Semejanza (El jardín de rosas)":
-    st.title("🌹 2. Ley de la Semejanza")
-    st.write("### El jardín de las 5,000 rosas")
-    st.write("Cuando el Principito visitó el jardín terrestre, vio miles de flores rojas. Aunque eran muchas, su cerebro supo al instante que **todas pertenecían a la misma especie** porque tenían el mismo color y forma.")
-    st.info("💡 **En diseño:** Lo que se ve igual (color, forma, tamaño), nuestro cerebro cree que sirve para lo mismo.")
-    st.image("https://images.unsplash.com/photo-1558882224-dda166733046?w=600", caption="Las cosas semejantes se agrupan mentalmente", width=500)
+    st.title("🌹 2. Ley de la Semejanza: El gran jardín de la Tierra")
+    st.write("### 📖 Érase una vez...")
+    st.write("Cuando el Principito llegó a la Tierra y entró a un jardín lleno de cinco mil rosas idénticas, se sintió muy triste porque pensaba que su flor era única en el universo. Sin embargo, su cerebro entendió al instante que todas esas flores formaban un solo equipo visual porque compartían el mismo color rojo y la misma forma.")
+    st.info("💡 **El secreto visual:** Las cosas que tienen el mismo color, forma o estilo parecen pertenecer al mismo grupo.")
+    st.image("https://images.unsplash.com/photo-1558882224-dda166733046?w=600", caption="Las flores idénticas se agrupan en nuestra mente de inmediato", width=500)
 
 elif opcion == "3. Continuidad (El camino del desierto)":
-    st.title("🛤️ 3. Ley de la Continuidad")
-    st.write("### Siguiendo las huellas en la arena")
-    st.write("A nuestro cerebro le encanta seguir líneas y direcciones. Si ves una línea curva o huellas en el desierto, tus ojos viajan por ella automáticamente como si fuera un tobogán.")
-    st.info("💡 **En diseño:** Sirve para guiar los ojos de quien lee de un punto a otro sin que se pierda.")
-    st.image("https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=600", caption="El camino guía nuestra mirada de forma fluida", width=500)
+    st.title("🛤️ 3. Ley de la Continuidad: Las huellas en la arena")
+    st.write("### 📖 Érase una vez...")
+    st.write("En su caminar por el vasto y silencioso desierto, el Principito buscaba una señal de vida. Sus ojos no veían puntos aislados, sino que seguían de forma natural las líneas de las dunas y las huellas sobre la arena, como si un camino invisible guiara sus pasos hacia el horizonte.")
+    st.info("💡 **El secreto visual:** A nuestro cerebro le encanta seguir líneas, curvas y direcciones fluidas sin perderse.")
+    st.image("https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=600", caption="El camino de arena guía nuestra mirada sin esfuerzo", width=500)
 
 elif opcion == "4. Cierre (La boa y el elefante)":
-    st.title("🐘 4. Ley del Cierre")
-    st.write("### ¿Sombrero o elefante?")
-    st.write("¿Te acuerdas del famoso dibujo del libro? Aunque al principio los adultos veían un sombrero, el dibujo tenía líneas incompletas. Nuestro cerebro completa los espacios vacíos para entender la figura.")
-    st.info("💡 **En diseño:** No necesitamos dibujar todo perfecto; el cerebro humano adora terminar las formas por sí solo.")
-    st.image("https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600", caption="Completando formas mentalmente", width=500)
+    st.title("🐘 4. Ley del Cierre: El misterio del sombrero")
+    st.write("### 📖 Érase una vez...")
+    st.write("El pequeño príncipe dibujó una serpiente boa que se había tragado a un elefante. Los adultos veían un simple sombrero porque les faltaban líneas por cerrar, pero los niños, con su gran imaginación, completaban los trazos vacíos en su mente para ver al elefante por dentro.")
+    st.info("💡 **El secreto visual:** El cerebro humano adora completar figuras incompletas por sí mismo.")
+    st.image("https://images.unsplash.com/photo-1557683316-973673baf926?w=600", caption="Completando formas y siluetas mentales", width=500)
 
 elif opcion == "5. Figura y Fondo (La puesta de sol)":
-    st.title("🌅 5. Ley de Figura y Fondo")
-    st.write("### Disfrutando la puesta de sol")
-    st.write("En el pequeño planeta del Principito, él podía ver atardeceres moviendo su silla. El sol brillante es la **figura** (lo importante) y el cielo del planeta es el **fondo** (lo que acompaña).")
-    st.info("💡 **En diseño:** Destacamos lo importante haciendo que el resto pase a un segundo plano.")
-    st.image("https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600", caption="El sol destaca sobre el cielo de fondo", width=500)
+    st.title("🌅 5. Ley de Figura y Fondo: El atardecer en el asteroide")
+    st.write("### 📖 Érase una vez...")
+    st.write("Para ver una puesta de sol, al Principito le bastaba con mover su silla unos pasos en su diminuto planeta. En ese instante mágico, el sol radiante se convertía en la gran **figura** protagonista, mientras que el cielo oscuro pasaba a ser un tranquilo **fondo** acompañante.")
+    st.info("💡 **El secreto visual:** Destacamos lo más importante (figura) separándolo del entorno (fondo).")
+    st.image("https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600", caption="El sol brilla como figura principal sobre el cielo de fondo", width=500)
 
 elif opcion == "6. Simetría (Los volcanes ordenados)":
-    st.title("🌋 6. Ley de la Simetría")
-    st.write("### Los volcanes del Principito")
-    st.write("El Principito tenía tres volcanes (dos activos y uno apagado). Las cosas simétricas, equilibradas y ordenadas nos transmiten una sensación inmediata de paz y belleza.")
-    st.info("💡 **En diseño:** Una página web ordenada y simétrica se siente mucho más confiable.")
-    st.image("https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=600", caption="El equilibrio visual transmite orden", width=500)
+    st.title("🌋 6. Ley de la Simetría: Los tres volcanes del planeta")
+    st.write("### 📖 Érase una vez...")
+    st.write("En el planeta B612 había tres volcanes: dos activos para calentar el desayuno y uno apagado que servía de taburete. Cuando el Principito los limpiaba todas las mañanas, cuidaba que guardaran un orden tan equilibrado y simétrico que su pequeño mundo se sentía en absoluta paz.")
+    st.info("💡 **El secreto visual:** Las formas equilibradas, ordenadas y simétricas transmiten una armonía visual inmediata.")
+    st.image("https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600", caption="El equilibrio y la simetría generan orden visual", width=500)
 
 elif opcion == "7. Destino Común (Los pájaros migrantes)":
-    st.title("🦅 7. Ley de Destino Común")
-    st.write("### El viaje gracias a los pájaros silvestres")
-    st.write("El Principito pudo viajar de planeta en planeta aprovechando una migración de pájaros silvestres. Si ves un grupo de cosas moviéndose hacia el mismo lado, tu cerebro asume que van al mismo destino.")
-    st.info("💡 **En diseño:** Los elementos que se mueven o cambian juntos parecen estar conectados.")
-    st.image("https://images.unsplash.com/photo-1522858547374-e8d99805b74a?w=600", caption="Elementos con una dirección compartida", width=500)
+    st.title("🦅 7. Ley de Destino Común: El vuelo hacia la libertad")
+    st.write("### 📖 Érase una vez...")
+    st.write("El día que el Principito tuvo que abandonar su planeta para explorar otros mundos, aprovechó la gran migración de una bandada de pájaros silvestres. Todos los pájaros volaban coordinados hacia el mismo rumbo, demostrando que aquello que se mueve junto, comparte un mismo destino.")
+    st.info("💡 **El secreto visual:** Los elementos que se mueven o apuntan en la misma dirección parecen estar conectados.")
+    st.image("https://images.unsplash.com/photo-1522858547374-e8d99805b74a?w=600", caption="Elementos con una misma dirección y propósito compartido", width=500)
 
 elif opcion == "🧩 Mini-Quiz Estelar (¡A jugar!)":
-    st.title("🧩 Mini-Quiz: Pon a prueba tu mente")
-    st.write("¡Es hora de demostrar lo que aprendiste sobre cómo funciona nuestro cerebro!")
+    st.title("🧩 Mini-Quiz: Pon a prueba tu mente estelar")
+    st.write("¡Es hora de demostrar lo que aprendiste en este viaje por los asteroides!")
     
     pregunta_1 = st.radio(
-        "1. Si ves un grupo de amigos muy juntos en el recreo, ¿qué ley de la Gestalt aplicas sin darte cuenta?",
+        "1. Si ves las estrellas del cielo agruparse formando constelaciones por su cercanía, ¿qué ley estamos usando?",
         ["Ley del Cierre", "Ley de la Proximidad", "Ley de la Simetría"]
     )
     
     if st.button("Comprobar Respuesta 1"):
         if pregunta_1 == "Ley de la Proximidad":
-            st.success("🎉 ¡Correcto! Por estar cerquita, asumimos que están juntos.")
+            st.success("🎉 ¡Correcto! Las estrellas cercanas se agrupan por proximidad.")
         else:
             st.error("❌ ¡Casi! La respuesta correcta es la Ley de la Proximidad.")
 
     st.markdown("---")
     
     pregunta_2 = st.radio(
-        "2. ¿Por qué el cerebro entiende un dibujo al que le falta una línea (como la boa y el elefante)?",
-        ["Porque aplica la Ley del Cierre", "Porque las líneas vuelan", "Porque no importa el dibujo"]
+        "2. ¿Por qué el Principito y los niños pueden ver un elefante dentro de la boa aunque falten trazos?",
+        ["Porque el cerebro aplica la Ley del Cierre", "Porque las serpientes vuelan", "Por arte de magia estelar"]
     )
     
     if st.button("Comprobar Respuesta 2"):
-        if pregunta_2 == "Porque aplica la Ley del Cierre":
-            st.success("🌟 ¡Excelente! Tu cerebro es un mago completando formas.")
+        if pregunta_2 == "Porque el cerebro aplica la Ley del Cierre":
+            st.success("🌟 ¡Excelente! Tu mente completa las formas incompletas.")
         else:
             st.error("❌ ¡Inténtalo de nuevo! Es la Ley del Cierre.")
